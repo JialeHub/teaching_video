@@ -7,6 +7,7 @@ import Home from '../components/home.vue';
 import Login from '../components/login.vue';
 import Register from '../components/register.vue';
 import Personal from '../components/personal.vue';
+import LearningRecord from '../components/learningRecord.vue';
 
 const mainRoutes = [
     {path:'/',redirect: '/home'},//默认根目录跳转到/login
@@ -14,6 +15,7 @@ const mainRoutes = [
     {path:'/personal',component: Personal},
     {path:'/login',component: Login},
     {path:'/register',component: Register},
+    {path:'/learningRecord',component: LearningRecord},
 ];
 
 const router = new Router({

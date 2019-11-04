@@ -19,7 +19,7 @@
                     <el-button @click="register">注 册</el-button>
                 </div>
                 <div class="loginLink">
-                    <el-link href="/#/login"  :underline="false">去登录</el-link>
+                    <el-link href="./#/login"  :underline="false">去登录</el-link>
                 </div>
             </div>
         </div>

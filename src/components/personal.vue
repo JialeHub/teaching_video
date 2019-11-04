@@ -214,7 +214,6 @@
                 electiveCourseTeacher:"蔡徐坤",
                 electiveCourseNum:"100",
                 electiveCourseTitle:"蔡徐坤的篮球第一章",
-                loading: true
             }
         },
         methods: {

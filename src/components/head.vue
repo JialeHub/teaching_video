@@ -34,10 +34,12 @@
             </el-submenu>
             <el-menu-item index="0" id="menu_right_outer">
                 <div id="menu_right">
-                        <span><a href="" class="menu_right_a">我的学习</a></span>
+                        <span>
+                             <router-link to="./learningRecord" class="menu_right_a">我的学习</router-link>
+                        </span>
                         <span id="menu_right_line"> | </span>
                         <span id="menu_right_userName">
-                            <router-link to="/login" class="menu_right_a">{{userName}}</router-link>
+                            <router-link to="./login" class="menu_right_a">{{userName}}</router-link>
                         </span>
                         <router-link to="/personal">
                             <el-avatar :size="40" :src="circleUrl" id="head_avatar"></el-avatar>

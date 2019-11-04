@@ -25,7 +25,7 @@
                     </el-switch>
                 </div>
                 <div class="registerLink">
-                    <el-link href="/#/register"  :underline="false">去注册</el-link>
+                    <el-link href="./#/register"  :underline="false">去注册</el-link>
                 </div>
             </div>
         </div>

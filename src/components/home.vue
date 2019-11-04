@@ -6,54 +6,54 @@
                     <img alt="" ref="imgHeight" :src="item.idView" class="banner_img"/>
                 </el-carousel-item>
             </el-carousel>
-            <div class="homeMain">
-                <div class="homeText1">
-                    <h3>课程简介</h3>
-                    <p>{{homeText1Content}}</p>
-                </div>
-                <div class="homeText2">
-                    <h3>课程负责人</h3>
-                    <div class="homeText2Img">
-                        <img :src="homeText2ImgSrc" alt="">
-                    </div>
-                    <div class="homeText2ContentBox">
-                        <p>{{homeText2Content}}</p>
-                    </div>
-                </div>
-                <div class="homeText3">
-                    <h3>课程回顾</h3>
-                    <div class="classReviewBox">
-                        <div class="classReviewBox1" @click="classReviewBox1">
-                            <div class="classReviewImg">
-                                <img :src="classReviewImgList1" alt="">
-                            </div>
-                            <div class="classReviewTitle">教学课件</div>
-                            <div class="classReviewContent">
-                                {{classReviewContent1}}
-                            </div>
-                        </div>
-                        <div class="classReviewBox2" @click="classReviewBox2">
-                            <div class="classReviewImg">
-                                <img :src="classReviewImgList2" alt="">
-                            </div>
-                            <div class="classReviewTitle">教学录像</div>
-                            <div class="classReviewContent">
-                                {{classReviewContent2}}
-                            </div>
-                        </div>
-                        <div class="classReviewBox3" @click="classReviewBox3">
-                            <div class="classReviewImg">
-                                <img :src="classReviewImgList3" alt="">
-                            </div>
-                            <div class="classReviewTitle">自测题</div>
-                            <div class="classReviewContent">
-                                {{classReviewContent3}}
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="homeTextEnd"></div>
+        </div>
+        <div class="homeMain">
+            <div class="homeText1">
+                <h3>课程简介</h3>
+                <p>{{homeText1Content}}</p>
             </div>
+            <div class="homeText2">
+                <h3>课程负责人</h3>
+                <div class="homeText2Img">
+                    <img :src="homeText2ImgSrc" alt="">
+                </div>
+                <div class="homeText2ContentBox">
+                    <p>{{homeText2Content}}</p>
+                </div>
+            </div>
+            <div class="homeText3">
+                <h3>课程回顾</h3>
+                <div class="classReviewBox">
+                    <div class="classReviewBox1" @click="classReviewBox1">
+                        <div class="classReviewImg">
+                            <img :src="classReviewImgList1" alt="">
+                        </div>
+                        <div class="classReviewTitle">教学课件</div>
+                        <div class="classReviewContent">
+                            {{classReviewContent1}}
+                        </div>
+                    </div>
+                    <div class="classReviewBox2" @click="classReviewBox2">
+                        <div class="classReviewImg">
+                            <img :src="classReviewImgList2" alt="">
+                        </div>
+                        <div class="classReviewTitle">教学录像</div>
+                        <div class="classReviewContent">
+                            {{classReviewContent2}}
+                        </div>
+                    </div>
+                    <div class="classReviewBox3" @click="classReviewBox3">
+                        <div class="classReviewImg">
+                            <img :src="classReviewImgList3" alt="">
+                        </div>
+                        <div class="classReviewTitle">自测题</div>
+                        <div class="classReviewContent">
+                            {{classReviewContent3}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="homeTextEnd"></div>
         </div>
     </div>
 
