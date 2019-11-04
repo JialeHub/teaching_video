@@ -24,110 +24,141 @@
                 </div>
                 <div class="learningRecordMain">
 
-                    <div class="learningRecordBox">
-                        <div class="learningRecordIn">
-                            <div class="learningRecordImg">
-                                <img :src="learningRecordImg" alt="">
-                            </div>
-                            <div class="learningRecordInTitle">
-                                <span>{{learningRecordInTitle}}</span>
-                            </div>
-                            <div class="learningRecordText">
-                                <span class="learningRecordTeacherTitle">主讲老师：{{learningRecordTeacher}}</span>
-                                <span class="learningRecordNum"><i class="el-icon-s-custom"></i> {{learningRecordNum}} 学习</span>
-                            </div>
+                        <div class="learningRecordBox">
+                            <router-link to="./myCourse">
+                                <div class="learningRecordIn">
+                                    <div class="learningRecordImg">
+                                        <img :src="learningRecordImg" alt="">
+                                    </div>
+                                    <div class="learningRecordInTitle">
+                                        <span>{{learningRecordInTitle}}</span>
+                                    </div>
+                                    <div class="learningRecordText">
+                                        <span class="learningRecordTeacherTitle">主讲老师：{{learningRecordTeacher}}</span>
+                                        <span class="learningRecordNum"><i class="el-icon-s-custom"></i> {{learningRecordNum}} 学习</span>
+                                    </div>
+                                </div>
+                            </router-link>
                         </div>
-                    </div>
 
-                    <div class="learningRecordBox">
-                        <div class="learningRecordIn">
-                            <div class="learningRecordImg">
-                                <img :src="learningRecordImg" alt="">
-                            </div>
-                            <div class="learningRecordInTitle">
-                                <span>{{learningRecordInTitle}}</span>
-                            </div>
-                            <div class="learningRecordText">
-                                <span class="learningRecordTeacherTitle">主讲老师：{{learningRecordTeacher}}</span>
-                                <span class="learningRecordNum"><i class="el-icon-s-custom"></i> {{learningRecordNum}} 学习</span>
-                            </div>
+                        <div class="learningRecordBox">
+                            <router-link to="./myCourse">
+                                <div class="learningRecordIn">
+                                    <div class="learningRecordImg">
+                                        <img :src="learningRecordImg" alt="">
+                                    </div>
+                                    <div class="learningRecordInTitle">
+                                        <span>{{learningRecordInTitle}}</span>
+                                    </div>
+                                    <div class="learningRecordText">
+                                        <span class="learningRecordTeacherTitle">主讲老师：{{learningRecordTeacher}}</span>
+                                        <span class="learningRecordNum"><i class="el-icon-s-custom"></i> {{learningRecordNum}} 学习</span>
+                                    </div>
+                                </div>
+                            </router-link>
                         </div>
-                    </div>
 
-                    <div class="learningRecordBox">
-                        <div class="learningRecordIn">
-                            <div class="learningRecordImg">
-                                <img :src="learningRecordImg" alt="">
-                            </div>
-                            <div class="learningRecordInTitle">
-                                <span>{{learningRecordInTitle}}</span>
-                            </div>
-                            <div class="learningRecordText">
-                                <span class="learningRecordTeacherTitle">主讲老师：{{learningRecordTeacher}}</span>
-                                <span class="learningRecordNum"><i class="el-icon-s-custom"></i> {{learningRecordNum}} 学习</span>
-                            </div>
+                        <div class="learningRecordBox">
+                            <router-link to="./myCourse">
+                                <div class="learningRecordIn">
+                                    <div class="learningRecordImg">
+                                        <img :src="learningRecordImg" alt="">
+                                    </div>
+                                    <div class="learningRecordInTitle">
+                                        <span>{{learningRecordInTitle}}</span>
+                                    </div>
+                                    <div class="learningRecordText">
+                                        <span class="learningRecordTeacherTitle">主讲老师：{{learningRecordTeacher}}</span>
+                                        <span class="learningRecordNum"><i class="el-icon-s-custom"></i> {{learningRecordNum}} 学习</span>
+                                    </div>
+                                </div>
+                            </router-link>
                         </div>
-                    </div>
 
-                    <div class="learningRecordBox">
-                        <div class="learningRecordIn">
-                            <div class="learningRecordImg">
-                                <img :src="learningRecordImg" alt="">
-                            </div>
-                            <div class="learningRecordInTitle">
-                                <span>{{learningRecordInTitle}}</span>
-                            </div>
-                            <div class="learningRecordText">
-                                <span class="learningRecordTeacherTitle">主讲老师：{{learningRecordTeacher}}</span>
-                                <span class="learningRecordNum"><i class="el-icon-s-custom"></i> {{learningRecordNum}} 学习</span>
-                            </div>
+                        <div class="learningRecordBox">
+                            <router-link to="./myCourse">
+                                <div class="learningRecordIn">
+                                    <div class="learningRecordImg">
+                                        <img :src="learningRecordImg" alt="">
+                                    </div>
+                                    <div class="learningRecordInTitle">
+                                        <span>{{learningRecordInTitle}}</span>
+                                    </div>
+                                    <div class="learningRecordText">
+                                        <span class="learningRecordTeacherTitle">主讲老师：{{learningRecordTeacher}}</span>
+                                        <span class="learningRecordNum"><i class="el-icon-s-custom"></i> {{learningRecordNum}} 学习</span>
+                                    </div>
+                                </div>
+                            </router-link>
                         </div>
-                    </div>
 
-                    <div class="learningRecordBox">
-                        <div class="learningRecordIn">
-                            <div class="learningRecordImg">
-                                <img :src="learningRecordImg" alt="">
-                            </div>
-                            <div class="learningRecordInTitle">
-                                <span>{{learningRecordInTitle}}</span>
-                            </div>
-                            <div class="learningRecordText">
-                                <span class="learningRecordTeacherTitle">主讲老师：{{learningRecordTeacher}}</span>
-                                <span class="learningRecordNum"><i class="el-icon-s-custom"></i> {{learningRecordNum}} 学习</span>
-                            </div>
+                        <div class="learningRecordBox">
+                            <router-link to="./myCourse">
+                                <div class="learningRecordIn">
+                                    <div class="learningRecordImg">
+                                        <img :src="learningRecordImg" alt="">
+                                    </div>
+                                    <div class="learningRecordInTitle">
+                                        <span>{{learningRecordInTitle}}</span>
+                                    </div>
+                                    <div class="learningRecordText">
+                                        <span class="learningRecordTeacherTitle">主讲老师：{{learningRecordTeacher}}</span>
+                                        <span class="learningRecordNum"><i class="el-icon-s-custom"></i> {{learningRecordNum}} 学习</span>
+                                    </div>
+                                </div>
+                            </router-link>
                         </div>
-                    </div>
 
-                    <div class="learningRecordBox">
-                        <div class="learningRecordIn">
-                            <div class="learningRecordImg">
-                                <img :src="learningRecordImg" alt="">
-                            </div>
-                            <div class="learningRecordInTitle">
-                                <span>{{learningRecordInTitle}}</span>
-                            </div>
-                            <div class="learningRecordText">
-                                <span class="learningRecordTeacherTitle">主讲老师：{{learningRecordTeacher}}</span>
-                                <span class="learningRecordNum"><i class="el-icon-s-custom"></i> {{learningRecordNum}} 学习</span>
-                            </div>
+                        <div class="learningRecordBox">
+                            <router-link to="./myCourse">
+                                <div class="learningRecordIn">
+                                    <div class="learningRecordImg">
+                                        <img :src="learningRecordImg" alt="">
+                                    </div>
+                                    <div class="learningRecordInTitle">
+                                        <span>{{learningRecordInTitle}}</span>
+                                    </div>
+                                    <div class="learningRecordText">
+                                        <span class="learningRecordTeacherTitle">主讲老师：{{learningRecordTeacher}}</span>
+                                        <span class="learningRecordNum"><i class="el-icon-s-custom"></i> {{learningRecordNum}} 学习</span>
+                                    </div>
+                                </div>
+                            </router-link>
                         </div>
-                    </div>
 
-                    <div class="learningRecordBox">
-                        <div class="learningRecordIn">
-                            <div class="learningRecordImg">
-                                <img :src="learningRecordImg" alt="">
-                            </div>
-                            <div class="learningRecordInTitle">
-                                <span>{{learningRecordInTitle}}</span>
-                            </div>
-                            <div class="learningRecordText">
-                                <span class="learningRecordTeacherTitle">主讲老师：{{learningRecordTeacher}}</span>
-                                <span class="learningRecordNum"><i class="el-icon-s-custom"></i> {{learningRecordNum}} 学习</span>
-                            </div>
+                        <div class="learningRecordBox">
+                            <router-link to="./myCourse">
+                                <div class="learningRecordIn">
+                                    <div class="learningRecordImg">
+                                        <img :src="learningRecordImg" alt="">
+                                    </div>
+                                    <div class="learningRecordInTitle">
+                                        <span>{{learningRecordInTitle}}</span>
+                                    </div>
+                                    <div class="learningRecordText">
+                                        <span class="learningRecordTeacherTitle">主讲老师：{{learningRecordTeacher}}</span>
+                                        <span class="learningRecordNum"><i class="el-icon-s-custom"></i> {{learningRecordNum}} 学习</span>
+                                    </div>
+                                </div>
+                            </router-link>
                         </div>
-                    </div>
+
+                        <div class="learningRecordBox">
+                            <router-link to="./myCourse">
+                                <div class="learningRecordIn">
+                                    <div class="learningRecordImg">
+                                        <img :src="learningRecordImg" alt="">
+                                    </div>
+                                    <div class="learningRecordInTitle">
+                                        <span>{{learningRecordInTitle}}</span>
+                                    </div>
+                                    <div class="learningRecordText">
+                                        <span class="learningRecordTeacherTitle">主讲老师：{{learningRecordTeacher}}</span>
+                                        <span class="learningRecordNum"><i class="el-icon-s-custom"></i> {{learningRecordNum}} 学习</span>
+                                    </div>
+                                </div>
+                            </router-link>
+                        </div>
 
                 </div>
             </div>
@@ -209,6 +240,7 @@
                         margin-left: 100px;
                         height: 258px;
                         .learningRecordIn{
+                            transition: all 0.35s;
                             position: relative;
                             width: 298px;
                             height: 248px;
@@ -252,6 +284,9 @@
                                     }
                                 }
                             }
+                        }
+                        .learningRecordIn:hover{
+                            transform: scale(1.1);
                         }
                     }
                     .learningRecordBox:nth-child(3n-2){

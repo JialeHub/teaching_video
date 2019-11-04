@@ -61,131 +61,165 @@
                         </div>
                         <div class="electiveCourseMain">
 
-                            <div class="electiveCourseBox">
-                                <div class="electiveCourse">
-                                    <div class="electiveCourseImg">
-                                        <img :src="electiveCourseImg" alt="">
-                                    </div>
-                                    <div class="electiveCourseTitle">
-                                        <span>{{electiveCourseTitle}}</span>
-                                    </div>
-                                    <div class="electiveCourseText">
-                                        <span class="electiveCourseTeacherTitle">主讲老师：{{electiveCourseTeacher}}</span>
-                                        <span class="electiveCourseNum"><i class="el-icon-s-custom"></i> {{electiveCourseNum}} 学习</span>
+                                <div class="electiveCourseBox">
+                                    <router-link to="./myCourse">
+                                        <div class="electiveCourse">
+                                            <div class="electiveCourseImg">
+                                                <img :src="electiveCourseImg" alt="">
+                                            </div>
+                                            <div class="electiveCourseTitle">
+                                                <span>{{electiveCourseTitle}}</span>
+                                            </div>
+                                            <div class="electiveCourseText">
+                                                <span class="electiveCourseTeacherTitle">主讲老师：{{electiveCourseTeacher}}</span>
+                                                <span class="electiveCourseNum"><i class="el-icon-s-custom"></i> {{electiveCourseNum}} 学习</span>
+                                            </div>
+                                        </div>
+                                    </router-link>
+                                    <div class="electiveCourseDel">
+                                            <el-button @click="electiveCourseDel">删 除</el-button>
                                     </div>
                                 </div>
-                                <div class="electiveCourseDel">
-                                    <el-button @click="electiveCourseDel">删 除</el-button>
-                                </div>
-                            </div>
 
-                            <div class="electiveCourseBox">
-                                <div class="electiveCourse">
-                                    <div class="electiveCourseImg">
-                                        <img :src="electiveCourseImg" alt="">
-                                    </div>
-                                    <div class="electiveCourseTitle">
-                                        <span>{{electiveCourseTitle}}</span>
-                                    </div>
-                                    <div class="electiveCourseText">
-                                        <span class="electiveCourseTeacherTitle">主讲老师：{{electiveCourseTeacher}}</span>
-                                        <span class="electiveCourseNum"><i class="el-icon-s-custom"></i> {{electiveCourseNum}} 学习</span>
+                                <div class="electiveCourseBox">
+                                    <router-link to="./myCourse">
+                                        <div class="electiveCourse">
+                                            <div class="electiveCourseImg">
+                                                <img :src="electiveCourseImg" alt="">
+                                            </div>
+                                            <div class="electiveCourseTitle">
+                                                <span>{{electiveCourseTitle}}</span>
+                                            </div>
+                                            <div class="electiveCourseText">
+                                                <span class="electiveCourseTeacherTitle">主讲老师：{{electiveCourseTeacher}}</span>
+                                                <span class="electiveCourseNum"><i class="el-icon-s-custom"></i> {{electiveCourseNum}} 学习</span>
+                                            </div>
+                                        </div>
+                                    </router-link>
+                                    <div class="electiveCourseDel">
+                                            <el-button @click="electiveCourseDel">删 除</el-button>
                                     </div>
                                 </div>
-                                <div class="electiveCourseDel">
-                                    <el-button @click="electiveCourseDel">删 除</el-button>
-                                </div>
-                            </div>
 
-                            <div class="electiveCourseBox">
-                                <div class="electiveCourse">
-                                    <div class="electiveCourseImg">
-                                        <img :src="electiveCourseImg" alt="">
-                                    </div>
-                                    <div class="electiveCourseTitle">
-                                        <span>{{electiveCourseTitle}}</span>
-                                    </div>
-                                    <div class="electiveCourseText">
-                                        <span class="electiveCourseTeacherTitle">主讲老师：{{electiveCourseTeacher}}</span>
-                                        <span class="electiveCourseNum"><i class="el-icon-s-custom"></i> {{electiveCourseNum}} 学习</span>
+                                <div class="electiveCourseBox">
+                                    <router-link to="./myCourse">
+                                        <div class="electiveCourse">
+                                            <div class="electiveCourseImg">
+                                                <img :src="electiveCourseImg" alt="">
+                                            </div>
+                                            <div class="electiveCourseTitle">
+                                                <span>{{electiveCourseTitle}}</span>
+                                            </div>
+                                            <div class="electiveCourseText">
+                                                <span class="electiveCourseTeacherTitle">主讲老师：{{electiveCourseTeacher}}</span>
+                                                <span class="electiveCourseNum"><i class="el-icon-s-custom"></i> {{electiveCourseNum}} 学习</span>
+                                            </div>
+                                        </div>
+                                    </router-link>
+                                    <div class="electiveCourseDel">
+                                            <el-button @click="electiveCourseDel">删 除</el-button>
                                     </div>
                                 </div>
-                                <div class="electiveCourseDel">
-                                    <el-button @click="electiveCourseDel">删 除</el-button>
-                                </div>
-                            </div>
 
-                            <div class="electiveCourseBox">
-                                <div class="electiveCourse">
-                                    <div class="electiveCourseImg">
-                                        <img :src="electiveCourseImg" alt="">
-                                    </div>
-                                    <div class="electiveCourseTitle">
-                                        <span>{{electiveCourseTitle}}</span>
-                                    </div>
-                                    <div class="electiveCourseText">
-                                        <span class="electiveCourseTeacherTitle">主讲老师：{{electiveCourseTeacher}}</span>
-                                        <span class="electiveCourseNum"><i class="el-icon-s-custom"></i> {{electiveCourseNum}} 学习</span>
+                                <div class="electiveCourseBox">
+                                    <router-link to="./myCourse">
+                                        <div class="electiveCourse">
+                                            <div class="electiveCourseImg">
+                                                <img :src="electiveCourseImg" alt="">
+                                            </div>
+                                            <div class="electiveCourseTitle">
+                                                <span>{{electiveCourseTitle}}</span>
+                                            </div>
+                                            <div class="electiveCourseText">
+                                                <span class="electiveCourseTeacherTitle">主讲老师：{{electiveCourseTeacher}}</span>
+                                                <span class="electiveCourseNum"><i class="el-icon-s-custom"></i> {{electiveCourseNum}} 学习</span>
+                                            </div>
+                                        </div>
+                                    </router-link>
+                                    <div class="electiveCourseDel">
+                                            <el-button @click="electiveCourseDel">删 除</el-button>
                                     </div>
                                 </div>
-                                <div class="electiveCourseDel">
-                                    <el-button @click="electiveCourseDel">删 除</el-button>
-                                </div>
-                            </div>
 
-                            <div class="electiveCourseBox">
-                                <div class="electiveCourse">
-                                    <div class="electiveCourseImg">
-                                        <img :src="electiveCourseImg" alt="">
-                                    </div>
-                                    <div class="electiveCourseTitle">
-                                        <span>{{electiveCourseTitle}}</span>
-                                    </div>
-                                    <div class="electiveCourseText">
-                                        <span class="electiveCourseTeacherTitle">主讲老师：{{electiveCourseTeacher}}</span>
-                                        <span class="electiveCourseNum"><i class="el-icon-s-custom"></i> {{electiveCourseNum}} 学习</span>
+                                <div class="electiveCourseBox">
+                                    <router-link to="./myCourse">
+                                        <div class="electiveCourse">
+                                            <div class="electiveCourseImg">
+                                                <img :src="electiveCourseImg" alt="">
+                                            </div>
+                                            <div class="electiveCourseTitle">
+                                                <span>{{electiveCourseTitle}}</span>
+                                            </div>
+                                            <div class="electiveCourseText">
+                                                <span class="electiveCourseTeacherTitle">主讲老师：{{electiveCourseTeacher}}</span>
+                                                <span class="electiveCourseNum"><i class="el-icon-s-custom"></i> {{electiveCourseNum}} 学习</span>
+                                            </div>
+                                        </div>
+                                    </router-link>
+                                    <div class="electiveCourseDel">
+                                            <el-button @click="electiveCourseDel">删 除</el-button>
                                     </div>
                                 </div>
-                                <div class="electiveCourseDel">
-                                    <el-button @click="electiveCourseDel">删 除</el-button>
-                                </div>
-                            </div>
 
-                            <div class="electiveCourseBox">
-                                <div class="electiveCourse">
-                                    <div class="electiveCourseImg">
-                                        <img :src="electiveCourseImg" alt="">
-                                    </div>
-                                    <div class="electiveCourseTitle">
-                                        <span>{{electiveCourseTitle}}</span>
-                                    </div>
-                                    <div class="electiveCourseText">
-                                        <span class="electiveCourseTeacherTitle">主讲老师：{{electiveCourseTeacher}}</span>
-                                        <span class="electiveCourseNum"><i class="el-icon-s-custom"></i> {{electiveCourseNum}} 学习</span>
+                                <div class="electiveCourseBox">
+                                    <router-link to="./myCourse">
+                                        <div class="electiveCourse">
+                                            <div class="electiveCourseImg">
+                                                <img :src="electiveCourseImg" alt="">
+                                            </div>
+                                            <div class="electiveCourseTitle">
+                                                <span>{{electiveCourseTitle}}</span>
+                                            </div>
+                                            <div class="electiveCourseText">
+                                                <span class="electiveCourseTeacherTitle">主讲老师：{{electiveCourseTeacher}}</span>
+                                                <span class="electiveCourseNum"><i class="el-icon-s-custom"></i> {{electiveCourseNum}} 学习</span>
+                                            </div>
+                                        </div>
+                                    </router-link>
+                                    <div class="electiveCourseDel">
+                                            <el-button @click="electiveCourseDel">删 除</el-button>
                                     </div>
                                 </div>
-                                <div class="electiveCourseDel">
-                                    <el-button @click="electiveCourseDel">删 除</el-button>
-                                </div>
-                            </div>
 
-                            <div class="electiveCourseBox">
-                                <div class="electiveCourse">
-                                    <div class="electiveCourseImg">
-                                        <img :src="electiveCourseImg" alt="">
-                                    </div>
-                                    <div class="electiveCourseTitle">
-                                        <span>{{electiveCourseTitle}}</span>
-                                    </div>
-                                    <div class="electiveCourseText">
-                                        <span class="electiveCourseTeacherTitle">主讲老师：{{electiveCourseTeacher}}</span>
-                                        <span class="electiveCourseNum"><i class="el-icon-s-custom"></i> {{electiveCourseNum}} 学习</span>
+                                <div class="electiveCourseBox">
+                                    <router-link to="./myCourse">
+                                        <div class="electiveCourse">
+                                            <div class="electiveCourseImg">
+                                                <img :src="electiveCourseImg" alt="">
+                                            </div>
+                                            <div class="electiveCourseTitle">
+                                                <span>{{electiveCourseTitle}}</span>
+                                            </div>
+                                            <div class="electiveCourseText">
+                                                <span class="electiveCourseTeacherTitle">主讲老师：{{electiveCourseTeacher}}</span>
+                                                <span class="electiveCourseNum"><i class="el-icon-s-custom"></i> {{electiveCourseNum}} 学习</span>
+                                            </div>
+                                        </div>
+                                    </router-link>
+                                    <div class="electiveCourseDel">
+                                            <el-button @click="electiveCourseDel">删 除</el-button>
                                     </div>
                                 </div>
-                                <div class="electiveCourseDel">
-                                    <el-button @click="electiveCourseDel">删 除</el-button>
+
+                                <div class="electiveCourseBox">
+                                    <router-link to="./myCourse">
+                                        <div class="electiveCourse">
+                                            <div class="electiveCourseImg">
+                                                <img :src="electiveCourseImg" alt="">
+                                            </div>
+                                            <div class="electiveCourseTitle">
+                                                <span>{{electiveCourseTitle}}</span>
+                                            </div>
+                                            <div class="electiveCourseText">
+                                                <span class="electiveCourseTeacherTitle">主讲老师：{{electiveCourseTeacher}}</span>
+                                                <span class="electiveCourseNum"><i class="el-icon-s-custom"></i> {{electiveCourseNum}} 学习</span>
+                                            </div>
+                                        </div>
+                                    </router-link>
+                                    <div class="electiveCourseDel">
+                                            <el-button @click="electiveCourseDel">删 除</el-button>
+                                    </div>
                                 </div>
-                            </div>
 
                         </div>
                     </div>
